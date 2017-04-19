@@ -2,6 +2,7 @@ require 'buildr/git_auto_version'
 require 'buildr/gpg'
 
 PROVIDED_DEPS = [:javaee_api, :javax_annotation]
+KEYCLOAK_DEPS = [:keycloak_adapter_core, :keycloak_adapter_spi, :keycloak_core, :keycloak_common]
 
 desc 'A simple service interface and base classes to be used by keycloak secured services'
 define 'simple-keycloak-service' do
@@ -18,10 +19,7 @@ define 'simple-keycloak-service' do
   pom.provided_dependencies.concat PROVIDED_DEPS
 
   compile.with PROVIDED_DEPS,
-               :keycloak_adapter_core,
-               :keycloak_adapter_spi,
-               :keycloak_core,
-               :keycloak_common
+               KEYCLOAK_DEPS
 
   test.using :testng
   test.with :mockito, :guiceyloops
