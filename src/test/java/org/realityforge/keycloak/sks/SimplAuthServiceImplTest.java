@@ -1,6 +1,7 @@
 package org.realityforge.keycloak.sks;
 
 import java.lang.reflect.Field;
+import javax.annotation.Nonnull;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import org.keycloak.adapters.OidcKeycloakAccount;
@@ -120,7 +121,7 @@ public class SimplAuthServiceImplTest
     }
   }
 
-  private void setField( final SimplAuthServiceImpl object, final Object value )
+  private void setField( @Nonnull final SimplAuthServiceImpl object, @Nonnull final HttpServletRequest value )
     throws NoSuchFieldException, IllegalAccessException
   {
     final Field field = SimplAuthServiceImpl.class.getDeclaredField( "_httpRequest" );
