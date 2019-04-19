@@ -21,9 +21,6 @@ public class SimplAuthServiceImpl
   @Inject
   private HttpServletRequest _httpRequest;
 
-  /**
-   * {@inheritDoc}
-   */
   @Nullable
   @Override
   public OidcKeycloakAccount findAccount()
@@ -48,9 +45,6 @@ public class SimplAuthServiceImpl
     }
   }
 
-  /**
-   * {@inheritDoc}
-   */
   @Nonnull
   @Override
   public OidcKeycloakAccount getAccount()
