@@ -9,7 +9,7 @@ artifacts:
 
   mockito: org.mockito:mockito-all:jar:1.9.5
 
-  guiceyloops: org.realityforge.guiceyloops:guiceyloops:jar:0.98
+  guiceyloops: org.realityforge.guiceyloops:guiceyloops:jar:0.102
 
   keycloak_core: org.keycloak:keycloak-core:jar:2.0.0.Final
   keycloak_common: org.keycloak:keycloak-common:jar:2.0.0.Final
