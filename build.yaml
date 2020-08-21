@@ -6,7 +6,7 @@ repositories:
 artifacts:
   idea_codestyle: au.com.stocksoftware.idea.codestyle:idea-codestyle:xml:1.14
 
-  javaee_api: javax:javaee-api:jar:7.0
+  javaee_api: javax:javaee-api:jar:8.0
   javax_annotation: org.realityforge.javax.annotation:javax.annotation:jar:1.0.1
 
   mockito: org.mockito:mockito-all:jar:1.9.5
