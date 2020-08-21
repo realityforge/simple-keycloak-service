@@ -13,7 +13,7 @@ artifacts:
 
   guiceyloops: org.realityforge.guiceyloops:guiceyloops:jar:0.106
 
-  keycloak_core: org.keycloak:keycloak-core:jar:2.0.0.Final
-  keycloak_common: org.keycloak:keycloak-common:jar:2.0.0.Final
-  keycloak_adapter_core: org.keycloak:keycloak-adapter-core:jar:2.0.0.Final
-  keycloak_adapter_spi: org.keycloak:keycloak-adapter-spi:jar:2.0.0.Final
+  keycloak_core: org.keycloak:keycloak-core:jar:11.0.0
+  keycloak_common: org.keycloak:keycloak-common:jar:11.0.0
+  keycloak_adapter_core: org.keycloak:keycloak-adapter-core:jar:11.0.0
+  keycloak_adapter_spi: org.keycloak:keycloak-adapter-spi:jar:11.0.0
