@@ -28,5 +28,4 @@ define 'simple-keycloak-service' do
   package(:sources)
   package(:javadoc)
 
-  iml.add_jruby_facet
 end
