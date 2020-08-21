@@ -2,6 +2,8 @@
 
 ### Unreleased
 
+* Upgrade the `javax` artifact to version `8.0`.
+
 ### [v0.2](https://github.com/realityforge/simple-keycloak-service/tree/v0.2) (2020-08-21) · [Full Changelog](https://github.com/realityforge/simple-keycloak-service/compare/v0.1...v0.2)
 
 * Remove `{@inheritDoc}` as it only explicitly indicates that the default behaviour at the expense of significant visual clutter.
