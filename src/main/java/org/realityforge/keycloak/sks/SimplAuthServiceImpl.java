@@ -30,14 +30,7 @@ public class SimplAuthServiceImpl
     if ( null == account )
     {
       final HttpSession session = _httpRequest.getSession( false );
-      if ( null != session )
-      {
-        return (OidcKeycloakAccount) session.getAttribute( KeycloakAccount.class.getName() );
-      }
-      else
-      {
-        return null;
-      }
+      return null != session ? (OidcKeycloakAccount) session.getAttribute( KeycloakAccount.class.getName() ) : null;
     }
     else
     {
