@@ -2,6 +2,7 @@
 
 ### Unreleased
 
+* Upgrade the `au.com.stocksoftware.idea.codestyle` artifact to version `1.17`.
 * Upgrade the `javax` artifact to version `8.0`.
 
 ### [v0.2](https://github.com/realityforge/simple-keycloak-service/tree/v0.2) (2020-08-21) · [Full Changelog](https://github.com/realityforge/simple-keycloak-service/compare/v0.1...v0.2)
