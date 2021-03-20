@@ -1,6 +1,8 @@
 require 'buildr/git_auto_version'
 require 'buildr/gpg'
 
+Buildr::MavenCentral.define_publish_tasks(:profile_name => 'org.realityforge', :username => 'realityforge')
+
 PROVIDED_DEPS = [:javaee_api, :javax_annotation]
 KEYCLOAK_DEPS = [:keycloak_adapter_core, :keycloak_adapter_spi, :keycloak_core, :keycloak_common]
 
