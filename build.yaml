@@ -11,7 +11,7 @@ artifacts:
 
   mockito: org.mockito:mockito-all:jar:1.9.5
 
-  guiceyloops: org.realityforge.guiceyloops:guiceyloops:jar:0.110
+  guiceyloops: org.realityforge.guiceyloops:guiceyloops:jar:0.112
 
   keycloak_core: org.keycloak:keycloak-core:jar:11.0.0
   keycloak_common: org.keycloak:keycloak-common:jar:11.0.0
