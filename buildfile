@@ -9,8 +9,8 @@ KEYCLOAK_DEPS = [:keycloak_adapter_core, :keycloak_adapter_spi, :keycloak_core, 
 desc 'A simple service interface and base classes to be used by keycloak secured services'
 define 'simple-keycloak-service' do
   project.group = 'org.realityforge.keycloak.sks'
-  compile.options.source = '1.8'
-  compile.options.target = '1.8'
+  compile.options.source = '17'
+  compile.options.target = '17'
   compile.options.lint = 'all,-serial'
   compile.options.warnings = true
   compile.options.other = %w(-Werror -Xmaxerrs 10000 -Xmaxwarns 10000)
