@@ -26,7 +26,7 @@ define 'simple-keycloak-service' do
                KEYCLOAK_DEPS
 
   test.using :testng
-  test.with :mockito, :guiceyloops
+  test.with :mockito_core, :byte_buddy, :objenesis, :hamcrest, :guiceyloops
 
   package(:jar)
   package(:sources)
