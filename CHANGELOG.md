@@ -2,7 +2,7 @@
 
 ### Unreleased
 
-* Update the `org.realityforge.guiceyloops` artifact to version `0.112`.
+* Update the `org.realityforge.guiceyloops` artifact to version `0.113`.
 * Upgrade the `au.com.stocksoftware.idea.codestyle` artifact to version `1.17`.
 * Upgrade the `javax` artifact to version `8.0`.
 * Use a baseline Java version `17`.

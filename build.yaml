@@ -14,7 +14,7 @@ artifacts:
   objenesis: org.objenesis:objenesis:jar:3.2
   hamcrest: org.hamcrest:hamcrest:jar:2.2
 
-  guiceyloops: org.realityforge.guiceyloops:guiceyloops:jar:0.112
+  guiceyloops: org.realityforge.guiceyloops:guiceyloops:jar:0.113
 
   keycloak_core: org.keycloak:keycloak-core:jar:11.0.0
   keycloak_common: org.keycloak:keycloak-common:jar:11.0.0
